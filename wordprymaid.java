@@ -5,6 +5,12 @@ public class wordprymaid {
         Scanner sc = new Scanner(System.in); 
         System.out.println("Enter the number of row in the prymaid ");
         int num = sc.nextInt(); 
-        
+        for(int i= 1 ; i<=num ; i++){
+         for(int j = 1 ; j<=i ; j++){
+            System.out.print( j ); 
+         }
+         System.out.println();
+        }
+       
     }
 }
